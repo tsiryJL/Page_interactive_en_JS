@@ -1,15 +1,15 @@
 //===========================================================================================
 // fonctionnalité n°1: lorsqu'on clique sur le footer, il y a clique dans le console
 //===========================================================================================
-let e = document.getElementsByTagName('footer')[0];
-var  y = 1;
+let evenementClick = document.getElementsByTagName('footer')[0];
+var  i = 1;
 
     function clique(){
-        console.log('cliquer ' + y); 
-            y = y + 1;
+        console.log('cliquer ' + i); 
+            i = i + 1;
         }
 
-e.addEventListener('click', clique);
+evenementClick.addEventListener('click', clique);
 
 //===========================================================================================
 //fonctionnalité n°2: l'élément HTML portant l'Id navbarHeader perde sa classe collapse
